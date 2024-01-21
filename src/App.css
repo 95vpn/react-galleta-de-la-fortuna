@@ -59,11 +59,11 @@ button {
 }
 
 button:hover {
-  background-color: antiquewhite;
+  background-color: floralwhite;
 }
 
 button:active {
-  background-color: antiquewhite;
+  background-color: floralwhite;
   color: #8e3d4c;;
 }
 
