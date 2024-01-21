@@ -53,7 +53,18 @@ button {
   background-color: #fea646;
   font-size: 18px;
   padding: 5px 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  border-radius: 30px;
+  transition: .3 ease-in-out ;
+}
+
+button:hover {
+  background-color: antiquewhite;
+}
+
+button:active {
+  background-color: antiquewhite;
+  color: #8e3d4c;;
 }
 
 h1 {
@@ -63,7 +74,7 @@ h1 {
   text-align: center;
   padding: 30px;
   margin-bottom: 25px;
-  margin-top: 75px;
+  margin-top: 50px;
   color: rgb(255, 255, 255);
   text-align: center;
   text-shadow: 2px 2px 0 #caa73e,
@@ -84,7 +95,7 @@ p {
 }
 
 .container-phrase {
-  min-height: 55vh;
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -94,7 +105,6 @@ p {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
-  
   min-height: 150px;
   display: flex;
   flex-direction: column;
@@ -125,7 +135,7 @@ span {
 
 .app {
   width: 100%;
-  /* min-height: 100vh; */
+  min-height: 100vh;
   /* background-image: url(../public/assets/fondo1.png); */
   background-size: cover;
   background-position: center;
@@ -134,11 +144,35 @@ span {
 
 @media screen and (min-width: 800px) {
   
+  .container-phrase {
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
   .phrase {
     font-size: 30px;
-
+   
   }
   
+  button {
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1.3rem;
+    padding: 5px 20px;
+    
+  }
+
+  .app {
+    width: 100%;
+    min-height: 100vh;
+    /* background-image: url(../public/assets/fondo1.png); */
+    background-size: cover;
+    background-position: center;
+  }
+
 } 
 
 
