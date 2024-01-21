@@ -15,7 +15,7 @@ function App() {
   const [quote, setQuote] = useState(sentence);
   const [bgApp, setBgApp] = useState(bgIndex)
 
-  const bgStyle = {backgroundImage: `url(../public/assets/fondo${bgApp}.png)`};
+  const bgStyle = {backgroundImage: `url(../assets/fondo${bgApp}.png)`};
 
   return (
 

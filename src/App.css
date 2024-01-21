@@ -57,10 +57,13 @@ button {
 }
 
 h1 {
+  font-size: 3rem;
+  margin: 0 auto;
+  max-width: 384px;
   text-align: center;
   padding: 30px;
-  margin-bottom: 100px;
-  margin-top: 100px;
+  margin-bottom: 25px;
+  margin-top: 75px;
   color: rgb(255, 255, 255);
   text-align: center;
   text-shadow: 2px 2px 0 #caa73e,
@@ -73,26 +76,35 @@ p {
   text-align: center;
 }
 
+.fuente {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
 .container-phrase {
-  min-height: 60vh;
+  min-height: 55vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .phrase {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
   
-  padding: 30px;
-  border: 1px solid;
   min-height: 150px;
   display: flex;
   flex-direction: column;
-  background-image: url(../public/assets/rectangle2.svg);
+  /* background-image: url(../public/assets/rectangle2.svg); */
   background-size: cover;
   background-position: center;
   justify-content: center;
   align-items: center;
   border-radius: 0px 0px 60px 0px;
+  font-size: 1.3rem;
 }
 
 .container-phrase img {
@@ -106,15 +118,6 @@ p {
   padding: 30px;
 }
 
-.button {
-
-}
-
-button {
-  
-  
-  
-}
 
 span {
   font-size: 51;
@@ -122,24 +125,18 @@ span {
 
 .app {
   width: 100%;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   /* background-image: url(../public/assets/fondo1.png); */
   background-size: cover;
   background-position: center;
 }
 
 
-@media screen and (min-width: 1000px) {
-  body {
-     
-  }
+@media screen and (min-width: 800px) {
   
-  .container {
-    width: 1020px; 
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
+  .phrase {
+    font-size: 30px;
+
   }
   
 } 
