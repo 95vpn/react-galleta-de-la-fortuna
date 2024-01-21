@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+  width: 100%;
+  /* max-width: 700px; */
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  
+}
+
+img {
+  /* max-width: 100%; */
+  height: auto;
+}
+
+#root {
+  
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  
+}
+
+
+
+.container {
+  /* width: 320px; */
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  color: #8e3d4c;
+  background-color: #fea646;
+  font-size: 18px;
+  padding: 5px 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-shadow: 2px 2px 0 #caa73e,
+               -2px -2px 0 #caa73e,
+               -2px 2px 0 #caa73e,
+               2px -2px 0 #caa73e;
+}
+
+p {
+  text-align: center;
+}
+
+.container-phrase {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.phrase {
+  
+  padding: 30px;
+  border: 1px solid;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../public/assets/rectangle2.svg);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 60px 0px;
+}
+
+.container-phrase img {
+  position: fixed;
+  right: 0;
+  bottom: 400px;
+}
+
+.phrase {
+  text-align: center;
+  padding: 30px;
+}
+
+.button {
+
+}
+
+button {
+  
+  
+  
+}
+
+span {
+  font-size: 51;
+}
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+  /* background-image: url(../public/assets/fondo1.png); */
+  background-size: cover;
+  background-position: center;
+}
+
+
+@media screen and (min-width: 1000px) {
+  body {
+     
+  }
+  
+  .container {
+    width: 1020px; 
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+} 
+
+
+
+
+
+
+
